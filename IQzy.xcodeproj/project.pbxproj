@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94632F031B25B0720024736A /* ConcludeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94632F021B25B0720024736A /* ConcludeController.swift */; };
+		94C1476A1B259B6A0036D5D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C147691B259B6A0036D5D3 /* AppDelegate.swift */; };
+		94C1476C1B259B6A0036D5D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C1476B1B259B6A0036D5D3 /* ViewController.swift */; };
+		94C1476F1B259B6A0036D5D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C1476D1B259B6A0036D5D3 /* Main.storyboard */; };
+		94C147711B259B6A0036D5D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C147701B259B6A0036D5D3 /* Images.xcassets */; };
+		94C147741B259B6A0036D5D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94C147721B259B6A0036D5D3 /* LaunchScreen.xib */; };
+		94C147801B259B6A0036D5D3 /* IQzyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C1477F1B259B6A0036D5D3 /* IQzyTests.swift */; };
+		94C147921B259B810036D5D3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C147911B259B810036D5D3 /* InterfaceController.swift */; };
+		94C147941B259B810036D5D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C147931B259B810036D5D3 /* Images.xcassets */; };
+		94C147981B259B810036D5D3 /* IQzy WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 94C147971B259B810036D5D3 /* IQzy WatchKit App.app */; };
+		94C147A01B259B810036D5D3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C1479E1B259B810036D5D3 /* Interface.storyboard */; };
+		94C147A21B259B810036D5D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C147A11B259B810036D5D3 /* Images.xcassets */; };
+		94C147A51B259B810036D5D3 /* IQzy WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 94C1478D1B259B810036D5D3 /* IQzy WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		94C147AE1B259EA50036D5D3 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C147AD1B259EA50036D5D3 /* MainController.swift */; };
+		94C147B01B25A4000036D5D3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C147AF1B25A4000036D5D3 /* Question.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94C1477A1B259B6A0036D5D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C1475C1B259B6A0036D5D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C147631B259B6A0036D5D3;
+			remoteInfo = IQzy;
+		};
+		94C147991B259B810036D5D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C1475C1B259B6A0036D5D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C147961B259B810036D5D3;
+			remoteInfo = "IQzy WatchKit App";
+		};
+		94C147A31B259B810036D5D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C1475C1B259B6A0036D5D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C1478C1B259B810036D5D3;
+			remoteInfo = "IQzy WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		94C147AC1B259B810036D5D3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				94C147A51B259B810036D5D3 /* IQzy WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		94632F021B25B0720024736A /* ConcludeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcludeController.swift; sourceTree = "<group>"; };
+		94C147641B259B6A0036D5D3 /* IQzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IQzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C147681B259B6A0036D5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C147691B259B6A0036D5D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94C1476B1B259B6A0036D5D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94C1476E1B259B6A0036D5D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94C147701B259B6A0036D5D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94C147731B259B6A0036D5D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		94C147791B259B6A0036D5D3 /* IQzyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IQzyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C1477E1B259B6A0036D5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C1477F1B259B6A0036D5D3 /* IQzyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQzyTests.swift; sourceTree = "<group>"; };
+		94C1478D1B259B810036D5D3 /* IQzy WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IQzy WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C147901B259B810036D5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C147911B259B810036D5D3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		94C147931B259B810036D5D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94C147971B259B810036D5D3 /* IQzy WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IQzy WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C1479D1B259B810036D5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C1479F1B259B810036D5D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		94C147A11B259B810036D5D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94C147AD1B259EA50036D5D3 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		94C147AF1B25A4000036D5D3 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94C147611B259B6A0036D5D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C147761B259B6A0036D5D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C1478A1B259B810036D5D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94C1475B1B259B6A0036D5D3 = {
+			isa = PBXGroup;
+			children = (
+				94C147661B259B6A0036D5D3 /* IQzy */,
+				94C1477C1B259B6A0036D5D3 /* IQzyTests */,
+				94C1478E1B259B810036D5D3 /* IQzy WatchKit Extension */,
+				94C1479B1B259B810036D5D3 /* IQzy WatchKit App */,
+				94C147651B259B6A0036D5D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94C147651B259B6A0036D5D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94C147641B259B6A0036D5D3 /* IQzy.app */,
+				94C147791B259B6A0036D5D3 /* IQzyTests.xctest */,
+				94C1478D1B259B810036D5D3 /* IQzy WatchKit Extension.appex */,
+				94C147971B259B810036D5D3 /* IQzy WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94C147661B259B6A0036D5D3 /* IQzy */ = {
+			isa = PBXGroup;
+			children = (
+				94C147691B259B6A0036D5D3 /* AppDelegate.swift */,
+				94C1476B1B259B6A0036D5D3 /* ViewController.swift */,
+				94C1476D1B259B6A0036D5D3 /* Main.storyboard */,
+				94C147701B259B6A0036D5D3 /* Images.xcassets */,
+				94C147721B259B6A0036D5D3 /* LaunchScreen.xib */,
+				94C147671B259B6A0036D5D3 /* Supporting Files */,
+			);
+			path = IQzy;
+			sourceTree = "<group>";
+		};
+		94C147671B259B6A0036D5D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94C147681B259B6A0036D5D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94C1477C1B259B6A0036D5D3 /* IQzyTests */ = {
+			isa = PBXGroup;
+			children = (
+				94C1477F1B259B6A0036D5D3 /* IQzyTests.swift */,
+				94C1477D1B259B6A0036D5D3 /* Supporting Files */,
+			);
+			path = IQzyTests;
+			sourceTree = "<group>";
+		};
+		94C1477D1B259B6A0036D5D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94C1477E1B259B6A0036D5D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94C1478E1B259B810036D5D3 /* IQzy WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				94C147911B259B810036D5D3 /* InterfaceController.swift */,
+				94C147AD1B259EA50036D5D3 /* MainController.swift */,
+				94632F021B25B0720024736A /* ConcludeController.swift */,
+				94C147AF1B25A4000036D5D3 /* Question.swift */,
+				94C147931B259B810036D5D3 /* Images.xcassets */,
+				94C1478F1B259B810036D5D3 /* Supporting Files */,
+			);
+			path = "IQzy WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		94C1478F1B259B810036D5D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94C147901B259B810036D5D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94C1479B1B259B810036D5D3 /* IQzy WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				94C1479E1B259B810036D5D3 /* Interface.storyboard */,
+				94C147A11B259B810036D5D3 /* Images.xcassets */,
+				94C1479C1B259B810036D5D3 /* Supporting Files */,
+			);
+			path = "IQzy WatchKit App";
+			sourceTree = "<group>";
+		};
+		94C1479C1B259B810036D5D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94C1479D1B259B810036D5D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94C147631B259B6A0036D5D3 /* IQzy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C147831B259B6A0036D5D3 /* Build configuration list for PBXNativeTarget "IQzy" */;
+			buildPhases = (
+				94C147601B259B6A0036D5D3 /* Sources */,
+				94C147611B259B6A0036D5D3 /* Frameworks */,
+				94C147621B259B6A0036D5D3 /* Resources */,
+				94C147AC1B259B810036D5D3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94C147A41B259B810036D5D3 /* PBXTargetDependency */,
+			);
+			name = IQzy;
+			productName = IQzy;
+			productReference = 94C147641B259B6A0036D5D3 /* IQzy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94C147781B259B6A0036D5D3 /* IQzyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C147861B259B6A0036D5D3 /* Build configuration list for PBXNativeTarget "IQzyTests" */;
+			buildPhases = (
+				94C147751B259B6A0036D5D3 /* Sources */,
+				94C147761B259B6A0036D5D3 /* Frameworks */,
+				94C147771B259B6A0036D5D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94C1477B1B259B6A0036D5D3 /* PBXTargetDependency */,
+			);
+			name = IQzyTests;
+			productName = IQzyTests;
+			productReference = 94C147791B259B6A0036D5D3 /* IQzyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94C1478C1B259B810036D5D3 /* IQzy WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C147A91B259B810036D5D3 /* Build configuration list for PBXNativeTarget "IQzy WatchKit Extension" */;
+			buildPhases = (
+				94C147891B259B810036D5D3 /* Sources */,
+				94C1478A1B259B810036D5D3 /* Frameworks */,
+				94C1478B1B259B810036D5D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94C1479A1B259B810036D5D3 /* PBXTargetDependency */,
+			);
+			name = "IQzy WatchKit Extension";
+			productName = "IQzy WatchKit Extension";
+			productReference = 94C1478D1B259B810036D5D3 /* IQzy WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		94C147961B259B810036D5D3 /* IQzy WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C147A61B259B810036D5D3 /* Build configuration list for PBXNativeTarget "IQzy WatchKit App" */;
+			buildPhases = (
+				94C147951B259B810036D5D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IQzy WatchKit App";
+			productName = "IQzy WatchKit App";
+			productReference = 94C147971B259B810036D5D3 /* IQzy WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94C1475C1B259B6A0036D5D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = cHinn;
+				TargetAttributes = {
+					94C147631B259B6A0036D5D3 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					94C147781B259B6A0036D5D3 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 94C147631B259B6A0036D5D3;
+					};
+					94C1478C1B259B810036D5D3 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					94C147961B259B810036D5D3 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 94C1475F1B259B6A0036D5D3 /* Build configuration list for PBXProject "IQzy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94C1475B1B259B6A0036D5D3;
+			productRefGroup = 94C147651B259B6A0036D5D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94C147631B259B6A0036D5D3 /* IQzy */,
+				94C147781B259B6A0036D5D3 /* IQzyTests */,
+				94C1478C1B259B810036D5D3 /* IQzy WatchKit Extension */,
+				94C147961B259B810036D5D3 /* IQzy WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94C147621B259B6A0036D5D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C1476F1B259B6A0036D5D3 /* Main.storyboard in Resources */,
+				94C147741B259B6A0036D5D3 /* LaunchScreen.xib in Resources */,
+				94C147711B259B6A0036D5D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C147771B259B6A0036D5D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C1478B1B259B810036D5D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C147941B259B810036D5D3 /* Images.xcassets in Resources */,
+				94C147981B259B810036D5D3 /* IQzy WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C147951B259B810036D5D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C147A01B259B810036D5D3 /* Interface.storyboard in Resources */,
+				94C147A21B259B810036D5D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94C147601B259B6A0036D5D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C1476C1B259B6A0036D5D3 /* ViewController.swift in Sources */,
+				94C1476A1B259B6A0036D5D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C147751B259B6A0036D5D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C147801B259B6A0036D5D3 /* IQzyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C147891B259B810036D5D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94632F031B25B0720024736A /* ConcludeController.swift in Sources */,
+				94C147B01B25A4000036D5D3 /* Question.swift in Sources */,
+				94C147AE1B259EA50036D5D3 /* MainController.swift in Sources */,
+				94C147921B259B810036D5D3 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94C1477B1B259B6A0036D5D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94C147631B259B6A0036D5D3 /* IQzy */;
+			targetProxy = 94C1477A1B259B6A0036D5D3 /* PBXContainerItemProxy */;
+		};
+		94C1479A1B259B810036D5D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94C147961B259B810036D5D3 /* IQzy WatchKit App */;
+			targetProxy = 94C147991B259B810036D5D3 /* PBXContainerItemProxy */;
+		};
+		94C147A41B259B810036D5D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94C1478C1B259B810036D5D3 /* IQzy WatchKit Extension */;
+			targetProxy = 94C147A31B259B810036D5D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94C1476D1B259B6A0036D5D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C1476E1B259B6A0036D5D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94C147721B259B6A0036D5D3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C147731B259B6A0036D5D3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		94C1479E1B259B810036D5D3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C1479F1B259B810036D5D3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94C147811B259B6A0036D5D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94C147821B259B6A0036D5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94C147841B259B6A0036D5D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IQzy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94C147851B259B6A0036D5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IQzy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94C147871B259B6A0036D5D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IQzyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IQzy.app/IQzy";
+			};
+			name = Debug;
+		};
+		94C147881B259B6A0036D5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IQzyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IQzy.app/IQzy";
+			};
+			name = Release;
+		};
+		94C147A71B259B810036D5D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = IQzy_WatchKit_Extension;
+				INFOPLIST_FILE = "IQzy WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		94C147A81B259B810036D5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = IQzy_WatchKit_Extension;
+				INFOPLIST_FILE = "IQzy WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		94C147AA1B259B810036D5D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IQzy WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		94C147AB1B259B810036D5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "IQzy WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94C1475F1B259B6A0036D5D3 /* Build configuration list for PBXProject "IQzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C147811B259B6A0036D5D3 /* Debug */,
+				94C147821B259B6A0036D5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C147831B259B6A0036D5D3 /* Build configuration list for PBXNativeTarget "IQzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C147841B259B6A0036D5D3 /* Debug */,
+				94C147851B259B6A0036D5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C147861B259B6A0036D5D3 /* Build configuration list for PBXNativeTarget "IQzyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C147871B259B6A0036D5D3 /* Debug */,
+				94C147881B259B6A0036D5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C147A61B259B810036D5D3 /* Build configuration list for PBXNativeTarget "IQzy WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C147A71B259B810036D5D3 /* Debug */,
+				94C147A81B259B810036D5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C147A91B259B810036D5D3 /* Build configuration list for PBXNativeTarget "IQzy WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C147AA1B259B810036D5D3 /* Debug */,
+				94C147AB1B259B810036D5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94C1475C1B259B6A0036D5D3 /* Project object */;
+}

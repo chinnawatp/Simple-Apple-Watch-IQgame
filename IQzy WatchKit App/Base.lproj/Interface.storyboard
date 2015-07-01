@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14C1514" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="IQzy_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="76.5" alignment="center" text="IQzy" textAlignment="center" id="2OC-Sp-4xA">
+                            <fontDescription key="font" type="system" weight="heavy" pointSize="30"/>
+                        </label>
+                        <button width="90" alignment="center" verticalAlignment="center" title="PLAY" id="FDA-cJ-IXx">
+                            <color key="backgroundColor" red="0.40000000596046448" green="1" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="2iE-Ko-Lq6" kind="push" id="oek-os-SYv"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="246" y="306"/>
+        </scene>
+        <!--Main Controller-->
+        <scene sceneID="agA-6Y-gzi">
+            <objects>
+                <controller id="2iE-Ko-Lq6" customClass="MainController" customModule="IQzy_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" id="c3p-qx-tX2">
+                            <items>
+                                <label alignment="right" text="0p" id="zQ7-Sl-tVS">
+                                    <fontDescription key="font" type="boldSystem" pointSize="18"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="66" height="56" alignment="center" verticalAlignment="bottom" backgroundImage="pencil-icon" radius="0.0" id="GaI-g8-VOz"/>
+                        <label height="22.5" alignment="center" verticalAlignment="bottom" text="White" id="vca-5S-hGm"/>
+                        <group width="1" alignment="left" verticalAlignment="bottom" id="GzL-I3-kST">
+                            <items>
+                                <button width="60" alignment="center" title="YES" id="IKV-r0-lzA">
+                                    <color key="backgroundColor" red="0.40000000596046448" green="1" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="system" weight="medium" pointSize="15"/>
+                                    <connections>
+                                        <action selector="tapYes:" destination="2iE-Ko-Lq6" id="QT4-Y2-3gs"/>
+                                    </connections>
+                                </button>
+                                <button width="60" alignment="center" title="NO" id="ds7-rc-3hN">
+                                    <color key="backgroundColor" red="1" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="system" weight="medium" pointSize="15"/>
+                                    <connections>
+                                        <action selector="tapNo:" destination="2iE-Ko-Lq6" id="0P9-66-ldP"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="questionImage" destination="GaI-g8-VOz" id="SOa-Y9-84X"/>
+                        <outlet property="questionLabel" destination="vca-5S-hGm" id="sXU-I7-dPA"/>
+                        <outlet property="scoreLabel" destination="zQ7-Sl-tVS" id="qU8-q4-H3i"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="441" y="301"/>
+        </scene>
+        <!--ConcludeController-->
+        <scene sceneID="6VR-SU-f59">
+            <objects>
+                <controller identifier="ConcludeController" id="me3-c2-Ous" customClass="ConcludeController" customModule="IQzy_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" text="Label" id="ELv-aW-uyH">
+                            <fontDescription key="font" type="system" pointSize="30"/>
+                        </label>
+                        <button width="90" alignment="center" verticalAlignment="center" title="DONE" id="v5r-EL-wxI">
+                            <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="tapDone:" destination="me3-c2-Ous" id="Ei5-RE-N9b"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="scoreLabel" destination="ELv-aW-uyH" id="fxj-at-6xQ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="625" y="301"/>
+        </scene>
+    </scenes>
+</document>
